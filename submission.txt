@@ -1,0 +1,47 @@
+commit 80078c69675ab25a43ad7129ef9054101419aa96
+Author: Parth Patel <ppate220@asu.edu>
+Date:   Wed Nov 27 23:26:34 2024 -0700
+
+    Doc final changed done
+
+commit a752ccc74b9bad379870843d96cdd9aac20cc585
+Author: Venkata srinivas babu Oguri <venkatasrinivasbabuoguri@Venkatas-Macbook-Air.local>
+Date:   Wed Nov 27 23:13:19 2024 -0700
+
+    final checks
+
+commit 96c8c8de6969073ee8b319c02488ed43278473c3
+Author: Parth Patel <ppate220@asu.edu>
+Date:   Wed Nov 27 22:52:19 2024 -0700
+
+    Part-2 doc file added
+
+commit 96a505d6f81984f4400e73888957e5c0e94d436c
+Author: Parth Patel <ppate220@asu.edu>
+Date:   Wed Nov 27 22:41:45 2024 -0700
+
+    IPower.java file modified in accordance to recommandation
+
+commit 121d14ef0b499c9c7339121f6ca933d509eb4e00
+Author: Venkata srinivas babu Oguri <venkatasrinivasbabuoguri@Venkatas-Macbook-Air.local>
+Date:   Wed Nov 27 21:41:10 2024 -0700
+
+    part one task b done.
+
+commit c64137017b486a74fdd222cf013cbaf7334ea534
+Author: Venkata srinivas babu Oguri <venkatasrinivasbabuoguri@Venkatas-Macbook-Air.local>
+Date:   Wed Nov 27 21:32:26 2024 -0700
+
+    part one task a done.
+
+commit 597e8c8ffde30bf539a2ab6537c1ab3e918834ef
+Author: Venkata srinivas babu Oguri <venkatasrinivasbabuoguri@Venkatas-Macbook-Air.local>
+Date:   Wed Nov 27 21:01:03 2024 -0700
+
+    completed part one part a
+
+commit 5be61c7a3a14e699156e325cd8171334491f53da
+Author: Parth Patel <ppate220@asu.edu>
+Date:   Wed Nov 27 19:10:37 2024 -0700
+
+    Initial Commit
