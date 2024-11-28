@@ -1,3 +1,8 @@
+PARTH PATEL (1233553622)
+SRINIVAS OGURI (1232467017)
+
+
+
 commit 80078c69675ab25a43ad7129ef9054101419aa96
 Author: Parth Patel <ppate220@asu.edu>
 Date:   Wed Nov 27 23:26:34 2024 -0700
@@ -34,11 +39,6 @@ Date:   Wed Nov 27 21:32:26 2024 -0700
 
     part one task a done.
 
-commit 597e8c8ffde30bf539a2ab6537c1ab3e918834ef
-Author: Venkata srinivas babu Oguri <venkatasrinivasbabuoguri@Venkatas-Macbook-Air.local>
-Date:   Wed Nov 27 21:01:03 2024 -0700
-
-    completed part one part a
 
 commit 5be61c7a3a14e699156e325cd8171334491f53da
 Author: Parth Patel <ppate220@asu.edu>
