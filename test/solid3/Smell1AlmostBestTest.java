@@ -37,6 +37,15 @@ class Smell1AlmostBestTest {
 
 
     }
+    @Test
+    void largePowerTest() {
+        assertEquals(282475249, Smell1AlmostBest.toPower(7, 10), "7^7 should be equal to 282475249");
+    }
+
+    @Test
+    void baseOneTest() {
+        assertEquals(1, Smell1AlmostBest.toPower(1, 7000), "1 raised to any power should be 1");
+    }
 
 
 
