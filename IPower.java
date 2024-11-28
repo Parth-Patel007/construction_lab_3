@@ -4,8 +4,7 @@ import java.util.Map;
 import java.util.HashMap;
 import java.util.concurrent.ConcurrentHashMap;
 
-public interface IPower {
-	int toPower(int n, int pow);
+public interface IPower { int toPower(int n, int pow);
 }
 
  class PowerSimple implements IPower {
@@ -16,9 +15,8 @@ public interface IPower {
 		}
 
 		int res = 1;
-		// adding brackets
-			for (int i = 0; i < pow; i++) {
-				res *= n;
+
+			for (int i = 0; i < pow; i++) {res *= n;
 			}
 		return res;
 	}
@@ -32,8 +30,7 @@ class PowerCached  implements IPower {
 			Map<Integer, Integer> entry = __cache.get(n);
 
 		if (entry == null) {
-			// qualifier fix using hmap
-			   entry = new HashMap<>();
+			entry = new HashMap<>();
 			 __cache.put(n, entry);
 		}
 		return toCachedPower(entry, n, pow);
@@ -47,9 +44,9 @@ class PowerCached  implements IPower {
 		} else {
 			res = e.get(pow);
 			if (res == null) {
-					res = n * toCachedPower(e, n, pow - 1) ;
+				res = n * toCachedPower(e, n, pow - 1) ;
 
-				// saving result in cache.
+
 
 				e.put(pow, res);
 			}
