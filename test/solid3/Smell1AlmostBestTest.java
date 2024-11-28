@@ -9,15 +9,15 @@ class Smell1AlmostBestTest {
     @Test
     void zeroPowerTest()
     {
-                 assertEquals(1, Smell1AlmostBest.toPower(5, 0), "a^0 will always be 1.");
+                 assertEquals(1, Smell1AlmostBest.toPower(7, 0), "a^0 will always be 1.");
     }
 
     @Test
-    void cachingTest() {int res1 = Smell1AlmostBest.toPower(2, 3);
+    void cachingTest() {int res1 = Smell1AlmostBest.toPower(7, 77);
 
 
 
-        int res2 = Smell1AlmostBest.toPower(2, 3);
+        int res2 = Smell1AlmostBest.toPower(7, 77);
         assertEquals(res1, res2, "results should same because of caching");
     }
 
@@ -29,12 +29,18 @@ class Smell1AlmostBestTest {
     }
 
     @Test
-    void zeroBaseTest() { assertEquals(0, Smell1AlmostBest.toPower(0, 5), "0 base to any power is 0, obviously");
+    void zeroBaseTest() { assertEquals(0, Smell1AlmostBest.toPower(0, 7), "0 base to any power is 0, obviously");
     }
 
     @Test
-    void positivePowerTest() { assertEquals(27, Smell1AlmostBest.toPower(3, 3), "3^3 should always be 27");
+    void positivePowerTest() { assertEquals(823543, Smell1AlmostBest.toPower(7, 7), "7^7 should always be 823543");
 
 
     }
+
+
+
+
+
+
 }
